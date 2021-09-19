@@ -43,7 +43,7 @@ class Simple{
         System.out.println("The two numbers are equal.");
     }
 
-    // 6) Min of 2 numbers:
+    // 5) Min of 2 numbers:
     if(n1 < n2) {
         System.out.println(n1 + " is the maximum of the two integers.");
     }
@@ -54,13 +54,13 @@ class Simple{
         System.out.println("The two numbers are equal.");
     }
 
-    // 5) Area of circle:
+    // 6) Area of circle:
    System.out.print("Enter the radius of a circle: ");
    float radius = input.nextFloat();
    float area = 22/7 * radius * radius;
    System.out.println("The area of the circle is: " + area + " sq. units.");
 
-   // 6) Palindrome:
+   // 7) Palindrome:
    System.out.print("Enter an integer: ");
    int n3 = input.nextInt();
    int temp = n3;
@@ -77,7 +77,7 @@ class Simple{
     System.out.println(n3 + " isn't a palindrome.");
    }
 
-   // 7) Fibonacci Numbers(iterative):
+   // 8) Fibonacci Numbers(iterative):
    System.out.print("How many Fibonacci numbers do you wish to print? ");
    int n4 = input.nextInt();
    int t1 = -1;
@@ -90,7 +90,7 @@ class Simple{
     t2 = t;
    }
 
-   // 8) Check if a number is Prime:
+   // 9) Check if a number is Prime:
    System.out.print("\nEnter an integer: ");
    int n5 = input.nextInt();
    int num = 2;
@@ -107,7 +107,7 @@ class Simple{
     System.out.println(n5 + " isn't a prime number.");
    }
 
-   // 9) Pyramid of *:
+   // 10) Pyramid of *:
    System.out.println("Pyramid: ");
    int i, j, row = 10;         
         for (i=0; i<row; i++) {       
